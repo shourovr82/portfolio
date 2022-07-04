@@ -11,7 +11,7 @@ h1 {
    color: rgb(207, 54, 7);
 }
 
-section {
+.flexible-container {
    display: flex;
    margin-bottom: 100px;
    padding-top: 5rem;
@@ -46,4 +46,8 @@ section {
    background-image: url(images/dream-bg.png);
    background-repeat: no-repeat;
    background-position: right;
+}
+
+.h1-exp {
+   text-align: center;
 }
