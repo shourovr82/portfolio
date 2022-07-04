@@ -33,6 +33,15 @@ h1 {
    width: 90%;
 }
 
+.daredevil-img {
+   width: 60% !important;
+   border-radius: 90px 40px 50px 0px;
+   margin-top: -2rem;
+   box-shadow: linear-gradient(to top left, #0400ff, #ff3d00);
+
+   filter: drop-shadow(9px 0px 12px #711D1D);
+}
+
 .link-button {
    color: #fff;
    text-decoration: none;
@@ -40,6 +49,22 @@ h1 {
    padding: 10px 40px;
    border-radius: 5px;
    font-weight: 700;
+   box-shadow: 0 0.3rem rgba(44, 43, 43, 0.2);
+}
+
+.link-button:hover {
+   filter: brightness(110%);
+}
+
+.link-button:active {
+   transform: translate(0, 0.3rem);
+   box-shadow: 0 0.1rem rgba(255, 255, 255, 0.65);
+}
+
+.top-p {
+   font-size: 1.2rem;
+   margin-bottom: 3rem;
+   color: rgb(56, 55, 55);
 }
 
 .top-banner {
